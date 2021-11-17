@@ -79,17 +79,17 @@ body{
 
 
 .playlist{
-    margin: 10px;
-    padding-left: 5px;
+    padding-left: 13px;
+    margin-top:20px
 }
 .playlist>.white{
     margin-bottom: 10px;
 }
 
 .playlist>.gray{
-    height: 30px;
-    line-height: 30px;
-    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
     display: inline-block;
     vertical-align: bottom;
 }
@@ -99,22 +99,19 @@ body{
 
 .plus{
     display:inline-block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: gray;
     text-align: center;
-    line-height:30px;
+    line-height:20px;
     margin-right: 5px;
 }
 
 .plus>span{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
-.vlist{
-    margin-top: 5px;
-}
 
 .vlist li{
     padding: 8px 0;
@@ -128,6 +125,7 @@ body{
 
 .download{
     margin-top: 100px;
+    margin-bottom: 15px;
     height: 25px;
     width: 215px;
     color: grey;
@@ -189,6 +187,7 @@ body{
 footer{
     height:80px;
     width: 100%;
+    z-index: 999;
     background-color: #27292b;
 }
 
