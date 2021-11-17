@@ -8,6 +8,14 @@
     display: flex;
 }
 
+.white{
+    color: white;
+}
+
+.gray{
+    color:gray;
+}
+
 
 
 
@@ -18,11 +26,119 @@
     flex-wrap: wrap;
 }
 
+/* --inizio sidebar-- */
 .sidebar{
     background-color: black;
     height: calc(100% - 80px);
-    width: 10vw;
+    width: 250px;
+    flex-direction: column;
 }
+
+.logo{
+    width:100%;
+    height:60px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo>img{
+    width: 120px;
+}
+
+.icon{
+    position: relative;
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.bverde{
+    border-left: 3px solid chartreuse;
+}
+
+.icon>img{
+   width:20px;
+   height:20px;
+}
+
+.icon>span{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.bblack{
+    border-left:3px solid black;
+}
+
+
+.playlist{
+    margin: 10px;
+    padding-left: 5px;
+}
+.playlist>.white{
+    margin-bottom: 5px;
+}
+
+.playlist>.gray{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+
+
+.plus{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    line-height:30px;
+    margin-right: 5px;
+}
+
+.plus>span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.vlist{
+    margin-top: 5px;
+}
+
+.vlist li{
+    padding: 8px 0;
+}
+
+.vlist li a{
+    color:gray;
+    text-decoration: none;
+}
+
+.download{
+    margin-top: 80px;
+    height: 40px;
+    width: 215px;
+    color: grey;
+    border-bottom: 1px solid gray;
+}
+.download>span{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+/* --fine sidebar-- */
 
 .central{
     flex-grow: 1;
@@ -30,8 +146,8 @@
     
 }
 
-.nav{
-    background-color:rgba(0, 0, 0, 0.5) ;
+.top{
+    background-color:rgba(0, 0, 0, 0.7) ;
     width:100%;
     position: fixed;
     z-index: 1000;

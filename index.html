@@ -5,22 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify.com</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
         <!-- flex container(100vh) con dentro  tutto il contenuto -->
         <div class="flex container">
-            <!-- sidebvar laterale -->
-          <div class="sidebar"></div>
-          <!-- un container centrale con dentro nav bar e contenuto pagina  -->
-            <div class="central">
-                    <div class="nav"></div>
-                    <div class="content">
+                <!-- sidebvar laterale -->
+                <div class="flex sidebar">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
                     </div>
-            </div>
-            <!-- footer di pagina -->
-            <footer>
-            </footer>
+                    <div class="icon bverde">
+                        <img src="./img/home.svg" alt="home">
+                        <span class="white">Home</span>
+                    </div>
+                    <div class="icon bblack">
+                        <img src="./img/search.svg" alt="search">
+                        <span class="gray">Cerca</span>
+                    </div>
+                    <div class="icon bblack">
+                        <img src="./img/libreria.svg" alt="libreria">
+                        <span class="gray">La tua libreria</span>
+                    </div>
+                    <div class="playlist">
+                        <h3 class="white">Playlist</h3>
+                        <div class="plus">
+                            <span>+</span>
+                        </div>
+                        <div class="gray">Crea Playlist</div>
+                        <ul class="vlist">
+                            <li><a href="">Quello che ascolto ultimamente</a></li>
+                            <li><a href="">Chill</a></li>
+                            <li><a href="">Palestra</a></li>
+                            <li><a href="">Heavy Metal</a></li>
+                            <li><a href="">Soundtrack</a></li>
+                            <li><a href="">Rap</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                        </ul>
+
+                        <div class="download">
+                            <i class="far fa-arrow-alt-circle-down"></i>
+                            <span class="gray">Installa app</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="icon bblack">
+                        <img class="profilo" src="./img/profile.svg" alt="profile">
+                        <span class="white">Santo Caridi</span>
+                    </div>
+                        
+
+                </div>
+                <!-- un container centrale con dentro nav bar e contenuto pagina  -->
+                <div class="central">
+                        <div class="flex top"></div>
+                        <div class="content">
+                        </div>
+                </div>
+                <!-- footer di pagina -->
+                <footer>
+                </footer>
 
         </div>
         
