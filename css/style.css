@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .flex{
     display: flex;
 }
@@ -66,6 +70,7 @@
 .icon>span{
     position: absolute;
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .bblack{
@@ -78,7 +83,7 @@
     padding-left: 5px;
 }
 .playlist>.white{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .playlist>.gray{
@@ -118,14 +123,16 @@
 .vlist li a{
     color:gray;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .download{
-    margin-top: 80px;
-    height: 40px;
+    margin-top: 100px;
+    height: 25px;
     width: 215px;
     color: grey;
     border-bottom: 1px solid gray;
+    font-size: 12px;
 }
 .download>span{
     margin-left: 5px;
