@@ -144,10 +144,6 @@ body{
 }
 
 
-
-
-
-
 /* --fine sidebar-- */
 
 .central{
@@ -156,28 +152,47 @@ body{
     
 }
 
+/* ----top---- */
 .top{
     background-color:rgba(0, 0, 0, 0.7) ;
-    width:100%;
+    width:calc(100% - 250px);
     position: fixed;
     z-index: 1000;
     height: 80px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+}
+.upgrade{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 0 40px;
+    height: 35px;
+    border-radius:20px;
+    border:1px solid white;
+   
 }
 
+
+/* ---fine top--- */
+/* --- content--- */
 .content{
     position:relative ;
     overflow-y: scroll;
     width:100%;
     height:100%;
-    background-color: cornsilk;
+    background-color: #17192a;
 }
-
-
+/* ---fine content--- */
+/* ---footer--- */
 footer{
     height:80px;
     width: 100%;
-    background-color: lightslategray;
+    background-color: #27292b;
 }
+
+/* ---fine footer--- */
 
 
 
