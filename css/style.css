@@ -226,10 +226,9 @@ body{
     margin-left: 49px;
 }
 
-.recenti{
+.recenti,.perte{
     margin-top: 20px;
     width:100%;
-    height: 500px;
     flex-wrap: wrap;
     
     
@@ -257,6 +256,15 @@ body{
 
 .titoli>span{
     font-size: 13px;
+}
+
+.content>h2{
+    margin-top:20px;
+}
+
+.commenti{
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 
