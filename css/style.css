@@ -36,17 +36,17 @@ body{
     height: calc(100% - 80px);
     width: 250px;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo{
     width:100%;
     height:60px;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 .logo>img{
-    width: 120px;
+    width: 150px;
 }
 
 .icon{
@@ -76,9 +76,13 @@ body{
 .bblack{
     border-left:3px solid black;
 }
+.sezione{
+    height: 10%;
+}
 
 
 .playlist{
+    height: 55%;
     padding-left: 13px;
     margin-top:20px
 }
@@ -112,6 +116,9 @@ body{
     font-weight: bolder;
 }
 
+.scrollbar{
+    overflow-y:auto;
+}
 
 .vlist li{
     padding: 8px 0;
@@ -123,8 +130,11 @@ body{
     font-size: 13px;
 }
 
+.gestione{
+    padding-left: 13px;
+}
+
 .download{
-    margin-top: 100px;
     margin-bottom: 15px;
     height: 25px;
     width: 215px;
@@ -141,11 +151,15 @@ body{
     border-radius: 50%;
 }
 
+.profile{
+    padding-left: 0;
+}
+
 
 /* --fine sidebar-- */
 
 .central{
-    flex-grow: 1;
+    width:calc(100% - 250px);
     height: calc(100% - 80px);
     
 }
