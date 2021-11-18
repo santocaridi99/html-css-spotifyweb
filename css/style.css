@@ -195,7 +195,7 @@ body{
     overflow-y: scroll;
     width:100%;
     height:100%;
-    background-color: #17192a;
+    background-color: #171823;
     padding-top: 100px; 
     padding-left:20px;
 }
@@ -226,7 +226,7 @@ body{
     margin-left: 49px;
 }
 
-.recenti,.perte{
+.recenti,.perte,.artisti{
     margin-top: 20px;
     width:100%;
     flex-wrap: wrap;
@@ -265,6 +265,11 @@ body{
 .commenti{
     font-size: 15px;
     margin-top: 10px;
+}
+
+
+.artisti>.album>img{
+    border-radius: 50%;
 }
 
 
