@@ -272,17 +272,61 @@ body{
     border-radius: 50%;
 }
 
-
-
-
 /* ---fine content--- */
 /* ---footer--- */
 footer{
+    display: flex;
     height:80px;
     width: 100%;
     z-index: 999;
     background-color: #191919;
 }
+
+.player-left,.player-right{
+    height:100%;
+    width:250px;
+    max-width:calc(100%/3);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-central{
+    width: calc(100% - 500px);
+    flex-grow: 1;
+    height:100%;
+    align-items: center;
+}
+
+
+.imgpiccola{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+.imgpiccola>img{
+    width: 100%;
+}
+
+.song{
+    margin-right: 35px;
+}
+
+.song>p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.fa-folder{
+    margin-left: 15px;
+}
+
+
+.player-right{
+    font-size: 14px;
+    padding-right: 14px;
+}
+
+
 
 
 /* ---fine footer--- */
