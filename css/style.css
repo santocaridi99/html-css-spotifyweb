@@ -249,16 +249,40 @@ body{
    height:240px;
    margin-bottom: 50px;
    padding-right: 15px;
+   position: relative;
  
 }
+.background{
+    position: absolute;
+    top: 0;
+    width:calc(100% - 15px);
+    height: calc(100% - 55px);
+    background-color: rgba(0, 0, 0, 0.644);
+    display: none;
+}
+
+.background>i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+
+
 
 
 .album>img{
     width: 100%;
     
 }
+/* ---prova hover immagini*/
+.background:hover{
+    display:block;
+}
 
-
+/* .................. */
 
 .titoli{
     margin-top: 10px;
