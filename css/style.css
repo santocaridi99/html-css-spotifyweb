@@ -385,8 +385,8 @@ footer{
     font-size: 16px;
 }
 
-.function.fa-play-circle{
-    font-size: 25px;
+.function>.far{
+    font-size: 20px;
 }
 
 .time>span{
