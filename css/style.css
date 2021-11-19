@@ -374,6 +374,10 @@ footer{
     .gestione{
         height: 8%;
     }
+    .player-left,.player-right{
+        justify-content: space-around;
+    }
+
 }
 
 /* ---mobile--- */
@@ -474,6 +478,7 @@ footer{
     .player-left,.player-right{
         width:30%;
         max-width:calc(100%/3);
+        justify-content: space-around;
     }
 
     .song{
