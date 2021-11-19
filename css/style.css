@@ -34,7 +34,7 @@ body{
 /* ------------- */
 
 .container{
-    height: 100vh;
+    height:100vh;
     flex-wrap: wrap;
 }
 
@@ -252,9 +252,14 @@ body{
  
 }
 
+
 .album>img{
     width: 100%;
+    
 }
+
+
+
 .titoli{
     margin-top: 10px;
     text-align: center;
@@ -348,7 +353,7 @@ footer{
     font-size: 16px;
 }
 
-.fa-play-circle{
+.function.fa-play-circle{
     font-size: 25px;
 }
 
@@ -359,6 +364,38 @@ footer{
 
 
 /* ---fine footer--- */
+/* --hover-- */
+.hover:hover{
+    color: white;
+    cursor:pointer
+}
+.upgrade:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+.icon>span:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.vlist li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.download>.gray:hover{
+    color:white;
+    cursor: pointer;
+}
+.small:hover{
+   font-size: 20px;
+}
+.function>.fa-play-circle:hover{
+   font-size: 25px;
+}
+/* --fine hover-- */
 
 /* ---dimensioni medie come screen-- */
 @media screen and (min-width:575px) and (max-width:1060px) {
