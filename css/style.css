@@ -244,19 +244,30 @@ body{
     
 }
 
+
 .album{
    width:200px;
    height:240px;
    margin-bottom: 50px;
    padding-right: 15px;
-   position: relative;
- 
+}
+
+.immagine{
+    width:100%;
+    height: 77%;
+    position: relative;
+}
+
+.immagine>img{
+    width:100%;
+    height: 100%;
 }
 .background{
     position: absolute;
-    width:calc(100% - 15px);
-    height: calc(100% - 55px);
+    width:100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.644);
+    display: none;
     
 }
 
@@ -277,7 +288,7 @@ body{
     
 }
 /* ---prova hover immagini*/
-.background:hover{
+.album:hover .background{
     display:block;
 }
 
@@ -431,9 +442,7 @@ footer{
         display: none;
     } 
 
-    .gestione{
-        height: 8%;
-    }
+    
     .player-left,.player-right{
         justify-content: space-around;
     }
