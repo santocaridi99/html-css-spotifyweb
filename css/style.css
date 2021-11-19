@@ -383,6 +383,7 @@ footer{
     }
     .sidebar{
         width: 45px;
+        justify-content: space-between;
     }
     .icon>span{
         display: none;
@@ -392,6 +393,9 @@ footer{
         height: 30px;
     }
     .playlist{
+        display: none;
+    }
+    .scrollbar{
         display: none;
     }
     .download{
@@ -412,7 +416,7 @@ footer{
     }
     
     .gestione{
-        height:5%;
+        height:6%;
         padding-left: 0;
     }
     .logo{
