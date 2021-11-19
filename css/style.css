@@ -337,7 +337,7 @@ footer{
     padding-right: 14px;
 }
 .function{
-    margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .function>i{
@@ -370,6 +370,10 @@ footer{
     .vuoto{
         display: none;
     } 
+
+    .gestione{
+        height: 8%;
+    }
 }
 
 /* ---mobile--- */
@@ -412,7 +416,7 @@ footer{
         padding-left: 0;
     }
     .funzioni{
-        height:75%
+        height:75%;
     }
     
     .gestione{
@@ -444,4 +448,83 @@ footer{
     .navbar{
         height: 160px;
     }
+    .central{
+        width:calc(100% - 45px);
+        height: calc(100% - 80px);
+        
+    }
+    .top{
+        width:calc(100% - 45px);
+    }
+    
+
+    .save{
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .imgpiccola{
+        margin-left: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    .fa-folder{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .player-left,.player-right{
+        width:30%;
+        max-width:calc(100%/3);
+    }
+
+    .song{
+        margin-right: 0;
+        margin-left: 2px;
+    }
+    .song>h5{
+        font-size: 10px;
+    }
+    .song>p{
+        font-size: 6px;
+    }
+    .player-right{
+        padding-right: 1px;
+    }
+
+    .player-right>input{
+        width: 60px;
+    }
+    .player-right>i{
+        font-size: 13px;
+    }
+
+    .function{
+       margin-bottom: 5px;
+    }
+    
+    .function>.small{
+        font-size: 13px;
+    }
+    .function>i{
+        padding: 0 5px;
+    }
+    
+    .player-central{
+        width: calc(100% - 60%);
+    }
+
+
+    .time>input{
+        width: 80px;
+    }
+
+    .time>span{
+        margin:5px
+    }
+
+    
+    
+
+   
+    
+
 }
