@@ -248,7 +248,7 @@ body{
 .album{
    width:200px;
    height:240px;
-   margin-bottom: 50px;
+   margin-bottom: 70px;
    padding-right: 15px;
 }
 
@@ -429,6 +429,9 @@ footer{
 .function>.fa-play-circle:hover{
    font-size: 25px;
 }
+img:hover{
+    cursor: pointer;
+}
 /* --fine hover-- */
 
 /* ---dimensioni medie come screen-- */
@@ -593,6 +596,11 @@ footer{
 
     .time>span{
         margin:5px
+    }
+
+    .album{
+        width:calc(100%/2);
+        margin-bottom: 105px;
     }
 
     
