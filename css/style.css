@@ -551,8 +551,7 @@ img:hover{
         margin-top: 5px;
     }
     .player-left,.player-right{
-        width:30%;
-        max-width:calc(100%/3);
+        max-width:30%;
         justify-content: space-around;
     }
 
@@ -571,10 +570,10 @@ img:hover{
     }
 
     .player-right>input{
-        width: 60px;
+        width: 40px;
     }
     .player-right>i{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .function{
@@ -582,19 +581,19 @@ img:hover{
     }
     
     .function>.small{
-        font-size: 13px;
+        font-size: 10px;
     }
     .function>i{
         padding: 0 5px;
     }
     
     .player-central{
-        width: calc(100% - 60%);
+        min-width: calc(100% - 60%);
     }
 
 
     .time>input{
-        width: 80px;
+        width: 60px;
     }
 
     .time>span{
