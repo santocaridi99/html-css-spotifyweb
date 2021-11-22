@@ -510,10 +510,11 @@ img:hover{
     
     .logo>.hidden{
         filter: invert(1);
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         position: absolute;
         left:0;
+        top:50px;
     }
    
     .recenti,.perte,.artisti{
@@ -602,6 +603,7 @@ img:hover{
 
     .album{
         width:calc(100%/2);
+        min-width: 140px;
         margin-bottom: 105px;
     }
 
